@@ -32,8 +32,8 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
 
 1. **Clone the Repository**
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/likhithkanigolla/Research-Teaser-IoT-ML25.git
+    cd Research-Teaser-IoT-ML25
     ```
 
 2. **Install Dependencies**
