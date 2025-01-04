@@ -5,15 +5,39 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
 ## File Structure
 
 ```
-/airquality
-    ├── coefficients_calculation_notebook.ipynb
-    ├── sensor_data.csv
-    ├── high_end_sensor_data.csv
-/ml-model
-    ├── model_building_notebook.ipynb
-/general_scripts
-    ├── download_dataset.py
-    ├── ingest_to_postgres.py
+.
+├── Readme.md
+├── airquality-calibration
+│   └── Sensor Calibration Linear Regression.ipynb
+├── datasets
+│   ├── Aero_IoT_Workshop_Batch_4.csv
+│   ├── Team_01.csv
+│   ├── Team_02.csv
+│   ├── Team_03.csv
+│   ├── Team_04.csv
+│   ├── Team_05.csv
+│   ├── Team_06.csv
+│   ├── Team_07.csv
+│   ├── Team_08.csv
+│   ├── Team_09.csv
+│   ├── Team_10.csv
+│   ├── Team_11.csv
+│   ├── Team_12.csv
+│   ├── Team_13.csv
+│   ├── Team_14.csv
+│   ├── Team_15.csv
+│   ├── Team_16.csv
+│   ├── high_end_sensor_data.csv
+│   └── sensor1_data.csv
+├── general_scripts
+│   ├── demo_dataset.py
+│   ├── demo_dataset_with_time.py
+│   ├── download_dataset.py
+│   └── ingest_to_postgres.py
+├── ml-model
+└── requirements.txt
+
+5 directories, 26 files
 ```
 
 1. **/airquality**
