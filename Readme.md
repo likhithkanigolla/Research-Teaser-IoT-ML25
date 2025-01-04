@@ -7,7 +7,7 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
 ```
 /airquality
     ├── coefficients_calculation_notebook.ipynb
-    ├── sensor1_data.csv
+    ├── sensor_data.csv
     ├── high_end_sensor_data.csv
 /ml-model
     ├── model_building_notebook.ipynb
@@ -18,7 +18,7 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
 
 1. **/airquality**
     - **coefficients_calculation_notebook.ipynb**: Notebook for calculating coefficients by comparing data from Sensor 1 with high-end sensor data. Participants can use these coefficients in their code for Sensor 1.
-    - **sensor1_data.csv**: Contains air quality parameters collected from Sensor 1.
+    - **sensor_data.csv**: Contains air quality parameters collected from Sensor 1.
     - **high_end_sensor_data.csv**: Contains air quality parameters collected from a high-end sensor.
 
 2. **/ml-model**
