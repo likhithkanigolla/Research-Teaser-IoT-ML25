@@ -21,7 +21,7 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
     - **sensor1_data.csv**: Contains air quality parameters collected from Sensor 1.
     - **high_end_sensor_data.csv**: Contains air quality parameters collected from a high-end sensor.
 
-2. **/demomodel**
+2. **/ml-model**
     - **model_building_notebook.ipynb**: Notebook for building a machine learning model to predict air quality values.
 
 3. **/general_scripts**
