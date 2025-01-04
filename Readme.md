@@ -9,7 +9,7 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
     ├── coefficients_calculation_notebook.ipynb
     ├── sensor1_data.csv
     ├── high_end_sensor_data.csv
-/demomodel
+/ml-model
     ├── model_building_notebook.ipynb
 /general_scripts
     ├── download_dataset.py
