@@ -27,8 +27,6 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
 │   ├── Team_14.csv
 │   ├── Team_15.csv
 │   ├── Team_16.csv
-│   ├── high_end_sensor_data.csv
-│   └── sensor1_data.csv
 ├── general_scripts
 │   ├── demo_dataset.py
 │   ├── demo_dataset_with_time.py
