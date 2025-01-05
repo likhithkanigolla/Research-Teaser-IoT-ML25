@@ -68,16 +68,27 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
 3. **Run the Scripts**
     - To download the dataset:
       ```bash
-      python general_scripts/download_dataset.py
+      python general_scripts/download_dataset.py <channel-id> <APIKEY>
       ```
     - To ingest data into PostgreSQL:
       ```bash
-      python general_scripts/ingest_to_postgres.py
+      python general_scripts/ingest_to_postgres.py <channel-id> <APIKEY>
+      ```
+    - To generate a demo dataset:
+      ```bash
+      python general_scripts/demo_dataset.py
+      ```
+    - To generate a demo dataset with time:
+      ```bash
+      python general_scripts/demo_dataset_with_time.py
+      ```
+    - To Generate the randomdata to the thingspeak:
+      ```bash
+      python general_scripts/thingspeak_datagenerator.py <APIKEY>
       ```
 
-4. **Run the Notebooks**
-    - Open the `coefficients_calculation_notebook.ipynb` in the `/airquality` folder and follow the instructions to calculate the coefficients.
-    - Open the `model_building_notebook.ipynb` in the `/demomodel` folder and follow the instructions to build and evaluate the predictive model.
+1. **Run the Notebooks**
+    - Open the `Sensor Calibration Linear Regression.ipynb` in the `/airquality-calibration` folder and follow the instructions to calculate the coefficients.
 
 ## Conclusion
 

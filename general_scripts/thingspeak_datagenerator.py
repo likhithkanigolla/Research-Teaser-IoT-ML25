@@ -1,9 +1,9 @@
 import requests
 import random
 import time
+import argparse
 
 # ThingSpeak API configuration
-THINGSPEAK_API_KEY = 'HF9EZ1SU90JTPI92'
 THINGSPEAK_URL = 'https://api.thingspeak.com/update'
 
 def generate_random_data():
@@ -13,9 +13,9 @@ def generate_random_data():
     pm10 = round(random.uniform(pm25 + 1.0, pm25 + 10.0), 2)
     return temperature, humidity, pm25, pm10
 
-def post_to_thingspeak(temperature, humidity, pm25, pm10):
+def post_to_thingspeak(api_key, temperature, humidity, pm25, pm10):
     payload = {
-        'api_key': THINGSPEAK_API_KEY,
+        'api_key': api_key,
         'field1': temperature,
         'field2': humidity,
         'field3': pm25,
@@ -28,7 +28,11 @@ def post_to_thingspeak(temperature, humidity, pm25, pm10):
         print('Failed to post data')
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='ThingSpeak Data Generator')
+    parser.add_argument('api_key', type=str, help='ThingSpeak API Key')
+    args = parser.parse_args()
+
     while True:
         temperature, humidity, pm25, pm10 = generate_random_data()
-        post_to_thingspeak(temperature, humidity, pm25, pm10)
+        post_to_thingspeak(args.api_key, temperature, humidity, pm25, pm10)
         time.sleep(1)
