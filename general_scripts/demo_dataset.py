@@ -31,7 +31,7 @@ pm10_high_end = pm10_normal + np.random.normal(0, 10, 200)
 df2 = pd.DataFrame({"PM25": pm25_high_end, "PM10": pm10_high_end})
 
 # Save datasets to CSV files
-df1.to_csv("dataset.csv", index=False)
-df2.to_csv("high_dataset.csv", index=False)
+df1.to_csv("datasets/dataset.csv", index=False)
+df2.to_csv("datasets/high_dataset.csv", index=False)
 
 print("Datasets have been generated and saved as 'dataset.csv' and 'high_dataset.csv'.")
