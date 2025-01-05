@@ -1,6 +1,6 @@
-# College Affiliate Program: Air Quality Workshop
+# College Research Affiliate Workshop, Jan 2025: Air Quality Workshop
 
-Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop, we will work with datasets containing air quality parameters such as PM10 and PM2.5. Below is the structure of the files and their purposes:
+Welcome to the College Research Affiliate Workshop, Jan 2025: Air Quality Workshop! In this workshop, we will work with datasets containing air quality parameters such as PM10 and PM2.5. Below is the structure of the files and their purposes:
 
 ## File Structure
 
@@ -35,7 +35,7 @@ Welcome to the College Affiliate Program: Air Quality Workshop! In this workshop
 ├── ml-model
 └── requirements.txt
 
-5 directories, 26 files
+4 directories, 26 files
 ```
 
 1. **/airquality**
